@@ -20,7 +20,7 @@ function main(currentTime){
         gameOverBoard.style.opacity = 1;
         gameOverBoard.style.visibility = "visible";
         if(confirm("GAMEOVER. Press OK to restart")){
-            window.location = '/';        
+            window.location = '/snake';        
         }
         return;
     }
