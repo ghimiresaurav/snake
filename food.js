@@ -1,7 +1,7 @@
 import{onSnake, extendSnake} from './snake.js';
 import{randomPosition} from './grid.js';
 
-const GROWTH_RATE = 5;
+const GROWTH_RATE = 1;
 let food = randomPosition();
 let score = 0;
 
